@@ -1,0 +1,12 @@
+{# templates/base.html.twig #}
+<!DOCTYPE html>
+<html>
+<body>
+{% for book in books %}
+<p>{{book.id}}</p>
+<p>{{book.title}}</p>
+<p>{{book.author}}</p>
+
+{% endfor %}
+</body>
+</html>
